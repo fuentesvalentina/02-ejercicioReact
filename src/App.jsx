@@ -1,10 +1,9 @@
-import TituloSecundario from "./componentes/TituloSecundario";
 
-function App() {
+
+function App(props) {
   return (
     <>
-      <h1>Hello</h1>
-      <TituloSecundario></TituloSecundario>
+      <h1>Hello {props.tituloProps}</h1>
     </>
   );
 }
